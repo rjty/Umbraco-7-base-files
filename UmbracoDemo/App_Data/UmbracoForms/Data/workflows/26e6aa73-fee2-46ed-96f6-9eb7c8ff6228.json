@@ -1,0 +1,16 @@
+{
+  "id": "26e6aa73-fee2-46ed-96f6-9eb7c8ff6228",
+  "name": "Send template email to rtyler@blueyonder.co.uk",
+  "form": "d36a55a6-0114-4d00-b55d-482771b05ad1",
+  "active": true,
+  "workflowTypeId": "17c61629-d984-4e86-b43b-a8407b3efea9",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "rtyler@blueyonder.co.uk",
+    "SenderEmail": "",
+    "Subject": "The Form '{form_name}' was submitted",
+    "RazorViewFilePath": "Forms/Emails/Example-Template.cshtml",
+    "Attachment": ""
+  },
+  "sortOrder": 1
+}
